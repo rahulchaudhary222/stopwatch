@@ -1,0 +1,11 @@
+.display {
+  display: block;
+  display: flex;
+}
+span {
+  letter-spacing: 20px;
+  width: 60px;
+  font-weight: bolder;
+  margin: 10px auto;
+  font-size: 60px;
+}

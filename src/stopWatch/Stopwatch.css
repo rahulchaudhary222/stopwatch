@@ -1,0 +1,48 @@
+input {
+  padding: 10px;
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.card {
+  border-radius: 20px;
+  width: 300px;
+  background-color: burlywood;
+}
+
+.stopwatch {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0.5, 1, 1.5, 2), rgba(0, 0, 0, 0.3));
+}
+button {
+  display: block;
+  background-color: grey;
+  padding: 10px;
+  width: 20%;
+  margin: 10px auto;
+  border-radius: 20px;
+  transition: all 0.3s;
+  color: white;
+}
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: chartreuse;
+}
